@@ -1,0 +1,8 @@
+Array* :tick	
+Objects* :tick
+Map* :tick
+Filter* 
+Reduce $ :tick 	
+Mutability**
+Immutability**
+Destructuring***
