@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import './App.css'
 // import Greeting from "./component/Greeting.js";
-import Welcome from "./component/Welcome.jsx";
-
+// import Welcome from "./component/Welcome.jsx";
+import ParrentComp from "./component/ParrentComp.jsx";
 
 const App = () => {
     return (
@@ -48,11 +48,14 @@ const App = () => {
         //     <Welcome />
         //     {/* State Section Ends */}
         // </>
-        <>
-            {/* State Starts Here */}
-            <Welcome />
-            {/* State Section Ends */}
-        </>
+        // <>
+        //     {/* State Starts Here */}
+        //     <Welcome />
+        //     {/* State Section Ends */}
+        // </>
+        <div>
+            <ParrentComp />
+        </div>
     )
 }
 
