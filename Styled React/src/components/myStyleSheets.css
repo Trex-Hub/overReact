@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.primary {
+    color: orange;
+}
+
+.secondary {
+    color: lightskyblue
+}
+
+.text-style {
+    margin: 15%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.error {
+    color: rgb(238, 50, 50);
+    margin: 15%;
+    text-align: center;
+    font-size: 3rem;
+}
