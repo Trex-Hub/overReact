@@ -1,13 +1,17 @@
 import React from 'react'
-import CounterOne from './component/CounterOne'
-import CounterTwo from './component/CounterTwo'
-import CounterThree from './component/CounterThree'
+import DataFetchingOne from './component/DataFetchingOne'
+import DataFetchingTwo from './component/DataFetchingTwo'
+// import CounterOne from './component/CounterOne'
+// import CounterTwo from './component/CounterTwo'
+// import CounterThree from './component/CounterThree'
 function App() {
   return (
     <div>
       {/* <CounterOne/> */}
       {/* <CounterTwo/> */}
-      <CounterThree/>
+      {/* <CounterThree/> */}
+      {/* <DataFetchingOne/> */}
+      <DataFetchingTwo/>
     </div>
   )
 }
