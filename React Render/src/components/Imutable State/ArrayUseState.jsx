@@ -6,7 +6,7 @@ const initalState = ['Bruce ', 'Wayne']
 export const ArrayUseState = () => {
     const [person, setPerson] = useState(initalState)
 
-    const handleClick = ()=> {
+    const handleClick = ()=> { 
         // person.push('Clark')
         // person.push('Kent')
         // setPerson(person)
