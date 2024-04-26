@@ -7,11 +7,12 @@ import Parent from './components/Parent & Child/Parent'
 import Parent1 from './components/Optimization/Parent1'
 import { Child1 } from './components/Optimization/Child1'
 import { GrandParent } from './components/Optimization/GrandParent'
+import { ParentTwo } from './components/Optimization/ParentTwo'
 
 function App() {
   return (
     <div>
-      <GrandParent/>
+      <ParentTwo/>
     </div>
   )
 }
