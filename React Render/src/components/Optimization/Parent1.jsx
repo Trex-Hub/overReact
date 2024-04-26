@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
-import { Child } from './Child'
 
-function Parent1() {
+
+function Parent1({ children }) {
     const [count, useCount] = useState(0)
-    
-    console.log('Parent Render')
+
+    console.log('Parent1 Render')
 
     return (
         <div>
             <h3> Count : {count} </h3>
             <button onClick={() => { useCount(count + 1) }}> Increment  </button>
-            <Child/>
+            {children}
         </div>
     )
 }
